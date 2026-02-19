@@ -9,7 +9,7 @@ description: Senior .NET reviewer and architect workflow for deep technical debt
 Сделать полный аудит .NET проекта и выдать детальный markdown-отчёт по техдолгу/костылям/рискам.
 
 ## Workflow
-1. Определи корень проекта (`*.sln`, `*slnxmc`, `src/`, `lib/`, `tests/`).
+1. Определи корень проекта (`*.sln`, `*slnx`, `src/`, `lib/`, `tests/`).
 2. Собери факты через поиск по коду (`rg`) и точечное чтение файлов (`nl -ba`, `sed`).
 3. Обязательно проверь:
    - EF Core: `AsNoTracking`, `Include/ThenInclude`, `HasPrecision`, `HasColumnType`, `HasConversion`, `FromSql*`, `ExecuteSql*`.
